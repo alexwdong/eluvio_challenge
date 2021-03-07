@@ -17,7 +17,7 @@ if __name__ == "__main__":
         transition_pct = np.mean(transitions)
         transition_pct_list.append(transition_pct)
     mean_transition_pct = np.mean(transition_pct_list)
-    
+    print('Mean Transition Percent is:', mean_transition_pct)
     ### Here, we make a baseline for RANDOM predictions
     #Now, randomly generate predictions based on a bernoulli with probability = mean_transition_pct
     test_dir = '/home/jolteon/eluvio_challenge/data/test/'
